@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+:root {
+  font-family: "Bubblegum Sans", sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* ✅ Remove centering from body – let React components handle it */
+body {
+  display: block;
+  font-family: 'Bubblegum Sans', sans-serif;
+}
